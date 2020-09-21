@@ -1,2 +1,2 @@
-# neural-network
+# Neural Network
 Fully connected Neural network
