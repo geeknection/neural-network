@@ -68,7 +68,7 @@ class Matrix {
         let result = new Matrix(pesos.rows, valores.cols);
         const camadas = pesos.data;
         camadas.forEach((camada, i) => {
-            result.data[i][0] = this.calcWeights(camada, valores.data);;
+            result.data[i][0] = this.calcWeights(camada, valores.data);
         });
         console.log('Pesos adicionados');
         return result;
